@@ -1,0 +1,132 @@
+/*CSS RESET*/
+html, body, div, header, nav, section, aside, article, h1, h2, h3, h4, h5, h6, a, p, table, thead, tbody, tfoot, ul, li {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body {
+	background: transparent;
+	line-height: 1;
+	font-family: Helvatica, Verdana, sans-serif;
+}
+nav ul {
+	list-style: none;
+}
+a {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input, select {
+	vertical-align: middle;
+}
+/*CUSTOM STYLE*/
+nav#nav-body {
+	background: #34495e;
+	display: inline-block;
+	height: 5vh;
+	width: 100%;
+	
+}
+nav#nav-body a{
+	color: #fff;
+}
+nav#nav-body ul li {
+	margin-left: 10px;
+	display: inline-block;
+}
+aside#aside-body {
+	background: #2c3e50;
+	width: 10%;
+	height: 95vh;
+	float: left;
+}
+nav#nav-aside {
+	width: 100%;
+}
+nav#nav-aside ul {
+	margin-top: 8vh;
+}
+nav#nav-aside li {
+	margin-bottom: 10px;
+	display: block;
+}
+nav#nav-aside a {
+	color: #fff;
+}
+section#section-body {
+
+	width: 90%;
+	float: right;
+	height: 95vh;
+	position: relative;
+}
+article#article-section {
+	background: #fff;
+	margin: 100px;
+	background:#bdc3c7;
+
+}
+article#article-section table{
+	width: 100%;
+}
+article#article-section table thead{
+	color: #fff;
+}
+header#header-section {
+	height: 5vh;
+	width: 100;
+	background: #e74c3c;
+	text-align: center;
+}
+header#header-section a{
+	color: #fff;
+	float: left;
+}
+header#header-section input {
+	display: inline-block;
+	float: right;
+}
+div#form-container {
+	padding: 10px;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+
+}
+div#form-container input {
+	display: block;
+	margin-bottom: 10px;
+}
+td:nth-last-child(1) {
+	display: flex;
+}
+td:nth-last-child(1) a {
+	flex: 1;
+}
+.button {
+	background: inherit;
+	border: 1px solid #fff;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: .8em;
+	box-shadow: 2px 2px 0 #888888;
+}
+.current {
+	background: #3498db;
+}
+.white {
+	color: #fff;
+}
+table tr td:nth-last-child(1) {
+	text-align: center;
+}
+table tr td a.button {
+	color: #00f;
+}
